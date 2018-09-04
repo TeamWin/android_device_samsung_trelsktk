@@ -4,6 +4,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := system/core/init
 LOCAL_CFLAGS := -Wall
-LOCAL_SRC_FILES := init_trelte.cpp
-LOCAL_MODULE := libinit_trelte
+LOCAL_SRC_FILES := init_trhplte.cpp
+LOCAL_MODULE := libinit_trhplte
 include $(BUILD_STATIC_LIBRARY)

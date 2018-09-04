@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_trhpltexx.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_trhplte.mk

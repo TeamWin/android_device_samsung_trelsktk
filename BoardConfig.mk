@@ -1,4 +1,4 @@
-DEVICE_TREE := device/samsung/trhpltexx
+DEVICE_TREE := device/samsung/trhplte
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -20,13 +20,13 @@ TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/trelte
+TARGET_KERNEL_SOURCE := kernel/samsung/trhplte
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_CONFIG := trelte_00_defconfig
+TARGET_KERNEL_CONFIG := trhplte_00_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := 
 KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
-TARGET_PREBUILT_KERNEL := device/samsung/trelte/zImage
+TARGET_PREBUILT_KERNEL := device/samsung/trhplte/zImage
 
 # DTB
 TARGET_DTBH_PLATFORM_CODE := 0x000050a6
@@ -87,6 +87,6 @@ TWRP_EVENT_LOGGING := false
 
 # Init properties from bootloader version, ex. model info
 #TARGET_UNIFIED_DEVICE := true
-#TARGET_INIT_VENDOR_LIB := libinit_trelte
-#TARGET_RECOVERY_DEVICE_MODULES := libinit_trelte
-#TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_TREE)/init/init_trelte.cpp
+#TARGET_INIT_VENDOR_LIB := libinit_trhplte
+#TARGET_RECOVERY_DEVICE_MODULES := libinit_trhplte
+#TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_TREE)/init/init_trhplte.cpp

@@ -1,2 +1,2 @@
-add_lunch_combo omni_trelte-eng
-add_lunch_combo omni_trelte-userdebug
+add_lunch_combo omni_trhplte-eng
+add_lunch_combo omni_trhplte-userdebug

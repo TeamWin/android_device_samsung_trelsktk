@@ -1,13 +1,13 @@
-## TWRP device tree for Samsung Galaxy Note 4 Exynos LTE (treltexx)
+## TWRP device tree for Samsung Galaxy Note 4 Exynos LTE (trhplte)
 
 This device tree is unified and will also work on tre3gxx.
 
-Add to `.repo/local_manifests/treltexx.xml`:
+Add to `.repo/local_manifests/trhplte.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<project path="device/samsung/treltexx" name="android_device_samsung_treltexx" remote="TeamWin" revision="android-6.0" />
+	<project path="device/samsung/trhplte" name="android_device_samsung_trhplte" remote="TeamWin" revision="android-6.0" />
 </manifest>
 ```
 
@@ -17,7 +17,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_treltexx-eng
+lunch omni_trhplte-eng
 make -j5 recoveryimage
 ```
 
